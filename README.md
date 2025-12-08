@@ -26,8 +26,6 @@ Le pipeline de traitement est conçu pour être modulaire et performant :
     * Calcul du **BPM** (Battements Par Minute).
     * Calcul du **SpO2** (Saturation Pulsée en Oxygène).
 
-📄 **Documentation Technique :** [Voir la présentation détaillée du projet (PDF)](docs/projet_oxymetrie_info_presentation.pdf)
-
 ---
 
 ### Structure du Projet
