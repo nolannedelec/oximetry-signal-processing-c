@@ -3,7 +3,15 @@
 > **Projet d'Ingénierie Logicielle & Traitement du Signal**
 > Implémentation d'une chaîne complète d'analyse de signaux physiologiques (SpO2 / BPM) en langage C standard.
 
-Ce projet simule la partie logicielle d'un oxymètre de pouls. Il ingère des données brutes (simulant des capteurs optiques) et applique une série de filtres numériques pour extraire la fréquence cardiaque et le taux d'oxygène dans le sang.
+Ce projet constitue la brique logicielle centrale d'un **système biomédical complet** conçu pour mesurer la saturation en oxygène (SpO2) et le rythme cardiaque (BPM).
+
+### 🔌 Contexte du Système Global
+À l'origine, ce projet s'articule autour de trois modules interconnectés :
+1.  **Électronique Analogique :** Capteurs optiques (LED Rouge/Infrarouge + Photodiode) et conditionnement du signal (amplification, filtrage analogique).
+2.  **Électronique Numérique (STM32) :** Conversion Analogique-Numérique (ADC) et pilotage des capteurs via un microcontrôleur.
+3.  **Traitement Informatique (Ce dépôt) :** Chaîne algorithmique chargée d'analyser les flux de données brutes pour en extraire les métriques physiologiques.
+
+*Note : Ce dépôt se concentre sur l'implémentation **algorithmique en C standard**. L'acquisition matérielle est ici simulée par l'ingestion de fichiers de données brutes (`.dat`) issus de la chaîne d'acquisition réelle.*
 
 ---
 
