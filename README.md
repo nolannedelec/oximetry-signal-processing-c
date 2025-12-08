@@ -5,7 +5,7 @@
 
 Ce projet constitue la brique logicielle centrale d'un **système biomédical complet** conçu pour mesurer la saturation en oxygène (SpO2) et le rythme cardiaque (BPM).
 
-### 🔌 Contexte du Système Global
+### Contexte du Système Global
 À l'origine, ce projet s'articule autour de trois modules interconnectés :
 1.  **Électronique Analogique :** Capteurs optiques (LED Rouge/Infrarouge + Photodiode) et conditionnement du signal (amplification, filtrage analogique).
 2.  **Électronique Numérique (STM32) :** Conversion Analogique-Numérique (ADC) et pilotage des capteurs via un microcontrôleur.
